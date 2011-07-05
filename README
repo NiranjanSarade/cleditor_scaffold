@@ -1,0 +1,18 @@
+Standard Rails scaffolding with JQuery CLEditor plugin. It provides a lightweight, full featured, cross browser, extensible, WYSIWYG HTML editor that can be easily added into any web site. 
+In addition to the standard text formatting features found in other WYSIWYG editors, CLEditor also contains rich drop downs for font name, size, style, text color and highlight color. CLEditor allows you to insert images, hyperlinks and horizontal rules.
+CLEditor takes a standard html textarea element and turns it into a full featured rich text editor. 
+
+http://premiumsoftware.net/cleditor/
+http://premiumsoftware.net/cleditor/docs/GettingStarted.html
+
+
+Installing scaffoldhub gem:
+gem install scaffoldhub
+
+if you are using bundler:
+gem 'scaffoldhub'
+and then
+bundle install
+
+Use cleditor scaffold:
+scaffoldhub cleditor:description person name:string description:text
